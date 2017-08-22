@@ -1,3 +1,5 @@
+select * from cust;
+
 create table if not exists `cust`(
 	`cust_id` int auto_increment primary key,
     `first_name` varchar(40) not null unique,
