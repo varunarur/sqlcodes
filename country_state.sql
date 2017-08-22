@@ -30,3 +30,6 @@ insert into state values (null,4,'North Island');
 
 update state set country_id=5 where state_id=16;
 
+
+
+select * from country;
